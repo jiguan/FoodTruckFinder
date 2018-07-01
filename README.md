@@ -11,7 +11,7 @@ The data is provided by [San Francisco Data API](https://dev.socrata.com/foundry
 ## How to run
 0. Clone or download the zip file, then enter the directory
 ```
-https://github.com/jiguan/FoodTruckFinder.git
+git clone https://github.com/jiguan/FoodTruckFinder.git
 cd FoodTruckFinder
 ```
 1. Build
