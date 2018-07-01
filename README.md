@@ -25,6 +25,8 @@ java -cp lib/jackson-annotations-2.9.5.jar:lib/jackson-core-2.9.5.jar:lib/jackso
 
 ## Notice
 - This app is supposed to use within a short amount of time.
-App displays food truck info based on the time when we send the request. If a user sends a request, but views the next page 1 hour later, the result is not accurate anymore.
+
+App displays food truck info based on the time when we send the request. If a user sends a request but views the next page 1 hour later, the result is not accurate anymore.
 - Do not send requests too often.
+
 This app has been registered and there should be no throttle API requests. However, if the app prints out an exception showing the response code is ```429```, that means you are considered as a malicious user.
