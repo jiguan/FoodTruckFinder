@@ -39,7 +39,7 @@ public class FoodTruckFinder {
 		int offset = requestTimes * RECORD_LIMIT;
 
 		Calendar calendar = GregorianCalendar.getInstance();
-		String currTime = calendar.get(Calendar.HOUR_OF_DAY) + ":" + calendar.get(Calendar.MINUTE);
+		String currTime = String.format("%02d", calendar.get(Calendar.HOUR_OF_DAY)) + ":" + String.format("%02d",calendar.get(Calendar.MINUTE));
 
 		// Foodtruck server's day format: Sunday = 0, Saturday = 6
 		String dayOfWeek = String.valueOf(calendar.get(Calendar.DAY_OF_WEEK) - 1);
